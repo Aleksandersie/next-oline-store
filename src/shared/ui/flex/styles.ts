@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
-import { FlexProps } from "@shared/ui";
+
+import { FlexProps } from "@/shared/ui/flex/ui";
 
 export const Element = styled.div<FlexProps>`
   display: flex;

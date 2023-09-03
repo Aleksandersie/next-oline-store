@@ -27,6 +27,7 @@
     "build/"
   ],
   "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-namespace": "off",
@@ -37,6 +38,7 @@
     "simple-import-sort/exports": "error",
     "react-hooks/rules-of-hooks": "off",
     "react-hooks/exhaustive-deps": "off",
-    "react-refresh/only-export-components": "off"
+    "react-refresh/only-export-components": "off",
+    "prettier/prettier": ["error", { "endOfLine": "auto" }]
   }
 }

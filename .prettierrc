@@ -72,6 +72,6 @@
     "prefer-arrow-callback": "error",
     "prefer-rest-params": "error",
     "prefer-spread": "error",
-    "no-redeclare": "error"
+    "no-redeclare": "error",
   }
 }
